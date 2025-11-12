@@ -1,0 +1,66 @@
+body {
+    background-image: url(web.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    
+}
+
+.material-symbols-outlined {
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: auto;
+    border-radius: 15px;
+    
+    
+}
+
+ul {
+    text-align: center;
+    top: 0;
+    padding: 0;
+    margin: 0;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 3px;
+    transition: all ease 0.5s;
+    
+    margin-right: 8px;
+    
+
+   }
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all ease 0.7s;
+    
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 5px;
+    text-align: center;
+    width: auto;
+    border-radius: 15px;
+    padding: 5px;
+    
+    
+}
