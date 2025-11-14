@@ -1,5 +1,5 @@
 body {
-    background-image: url(web.png);
+    background-image: url(wecons.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: aliceblue;
@@ -63,4 +63,13 @@ li:hover {
     padding: 5px;
     
     
+}
+
+.material-symbols-outlined {
+    align-items: center;
+}
+
+.label {
+    text-align: center;
+    align-items: center;
 }
